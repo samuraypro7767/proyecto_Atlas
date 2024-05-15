@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+header{
+    background-image: url(../Assets/images/banner-bk.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30rem;
+}
+header > .navBar {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header > .navBar > ul {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    list-style: none;
+}
+header > .navBar > ul > img {
+  width: 4cm;
+  
+}
+
+header > .navBar > ul > li > a {
+
+text-decoration: none;
+color: white;
+
+}
+
+
