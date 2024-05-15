@@ -18,7 +18,7 @@ header{
 }
 header > .navBar {
     width: 100%;
-    height: 6rem;
+    height: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,6 +43,20 @@ header > .navBar > ul > li > a {
 text-decoration: none;
 color: white;
 
+}
+header > .containerHeader{
+    width: 50%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-wrap: wrap;
+}
+header > .containerHeader > h1{
+    font-size: 50px;
+    color: white;
+    width: 70%;
+   
 }
 
 
