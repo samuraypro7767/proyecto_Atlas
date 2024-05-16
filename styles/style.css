@@ -242,3 +242,64 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
     margin: 1cm 0 0 0 ;
 }
 
+/* targetas del main */
+.containerTarget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:0 0;
+}
+
+.target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.target:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.large-target {
+    width: 20%;
+    background-color: #00003d;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    transform: translateY(-20px);
+}
+
+.large-target:hover {
+    transform: translateY(-30px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.target h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.target p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.target h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
