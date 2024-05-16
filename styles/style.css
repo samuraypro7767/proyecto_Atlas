@@ -230,7 +230,7 @@ main > .containerStyle >.containerInformate > .containerImg  {
 main > .containerStyle >.containerInformate >  .containerImg >img  {
     width: 100%;
     height: 100%;
-    filter: drop-shadow(0 0  15px black);
+    filter: drop-shadow(0 0  10px black);
 }
 
 /* segundo contenedor  */
@@ -248,7 +248,31 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin:0 0;
+    width:100%;
+    height: 100%;
+}
+#containerTitleTarget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+    height: 100%;
+    flex-direction: column;
+}
+#containerTitleTarget #h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 7rem;
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.2;
+    word-wrap: break-word;
+    
 }
 
 .target {
@@ -258,16 +282,17 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
     flex-direction: column;
     width: 20%;
     background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 1px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 20px;
+    margin: 2px;
     transition: all 0.3s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
 }
 
 .target:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -278,28 +303,37 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    margin: 20px;
-    transform: translateY(-20px);
+    margin: 10px;
+    transform: translateY(-10px);
 }
 
 .large-target:hover {
     transform: translateY(-30px);
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-
+.large-target h2{
+    color: #fff;
+}
+.large-target >article > p{
+    color: #fff;
+}
 .target h2 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
+    
 }
 
 .target p {
     font-size: 16px;
     margin-bottom: 20px;
+    text-align: center;
+    color: black;
 }
 
 .target h3 {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
+    display: flex;
 }
