@@ -131,7 +131,8 @@
     </main>
 
     <footer>
-        <section>
+        <div class="containerFooter">
+        <section class="ContactUs">
             <h2>Contact Us </h2>
             <p>Te iisque  labitur eos, nec sale argumentum scribentur,<br>augue disputando in vim. Erat fugit sit at,ius lorem.</p>
 
@@ -139,22 +140,30 @@
             <p>Phone: 361-688-5824</p>
             <p>Address: 4826 White Avenue, Courpus Christi, Texas</p>
         </section>
-        <section>
-            <form action="#" method="post">
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
+        <section class="formContainer">
+            <form action="#" method="post" class="form-container">
+                <div class="containerlabel">
+                    <div class="organizate">
+                    <label class="labelContainer" for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+            
+                    <div class="organizate">
+                    <label class="labelContainer" for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required></div>
+                </div>
+            
+                <label class="labelContainer" for="message">Message:</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
-                <input type="submit" value="Submit">
+            
+                <button type="submit">Submit</button>
             </form>
         </section>
+    </div>
         <div>
-            <p>Copyright& 2018 Chen, yi-ya</p>
-            <section>
+            <p>Copyright& &copy;  2018 Chen, yi-ya</p>
+            <section class="">
                 <img src="" alt="">
                 <img src="" alt="">
                 <img src="" alt="">

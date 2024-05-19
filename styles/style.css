@@ -14,11 +14,11 @@ body > header{
     background-size:cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 55%;
+    min-height:55%;
 }
 header > .navBar {
     width: 100%;
-    height: 30%;
+    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,14 +34,14 @@ header > .navBar > ul {
     list-style: none;
 }
 header > .navBar > ul > img {
-  width: 4cm;
+  width: 10rem;
   
 }
 
 header > .navBar > ul > li > a {
 text-decoration: none;
 color: white;
-
+font-size: 1em;
 }
 header > .containerHeader{
     width: 55%;
@@ -53,17 +53,16 @@ header > .containerHeader{
     text-align: center;
     align-items: flex-start;
     justify-content: flex-start;
-    gap :20px;
+    gap :30px;
 }
 
 
 
 header > .containerHeader > h1{
-    font-size: 40px;
+    font-size: 2.7em;
     height: 40%;
     width: 70%;
     color: white;
-    width: 70%;
     text-wrap: nowrap;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block;
@@ -76,12 +75,13 @@ header > .containerHeader > h1 > span{
 
 header > .containerHeader > p{
     height: 2rem;
-    font-size: 12px;
+    font-size: 0.8rem;
     color: white;
     width: 70%;
    text-wrap: wrap;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    text-align: left;
+   font-weight: 200;
 }
 header > .containerHeader > .buttonStarted{
     width: 8rem;
@@ -111,13 +111,12 @@ main{
     justify-content: space-evenly;
     align-items: stretch;
     flex-direction: column;
-    gap: 30px;
     align-content: space-around;
     flex-wrap: wrap;
 }
 main > .SegureInformate {
     width: 100%;
-    height: 25rem; 
+    height: 23em; 
     padding: 35px 0 0 0;
 }
 main > .SegureInformate > h2 {
@@ -159,15 +158,15 @@ main > .SegureInformate > .containerInformate > .card {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(78, 78, 78);
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
 } 
 
 main > .containerStyle {
     width: 100%;
-    height:50% ;
+    height:40em ;
     background-image: url(../Assets/images/Wave.svg);
     background-position:bottom;
-    background-size:280rem;
+    background-size:270em;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -219,6 +218,7 @@ main > .containerStyle >.containerInformate > .articleSection > button{
     border: none;
     font-weight: 600;
     background-color:rgb(0, 0, 61) ;
+    cursor: pointer;
     }
 main > .containerStyle >.containerInformate > .containerImg  {
     width: 30%;
@@ -249,25 +249,25 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
     align-items: center;
     flex-wrap: wrap;
     width:100%;
-    height: 100%;
+    max-height: 70%;
     gap: 7px;
 }
 #containerTitleTarget {
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    width:100%;
-    min-height: 700px;
-    flex-direction: column;
+    flex-flow: column wrap;
+    width: 100%;
+    height: 600px;
+    place-content: flex-end;
+    justify-content: space-around;
 }
 #containerTitleTarget #h2 {
-    display: flex;
+  display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 100%;
-    min-height: 200px;
+    min-height: 10px;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -283,8 +283,8 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
     justify-content: flex-start;
     flex-direction: column;
     width: 23%;
-    min-width: 200px;
-    min-height: 500px;
+    min-width: 100px;
+    height: 100%;
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
@@ -302,9 +302,9 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
     background-color: #00003d;
     border: 1px solid #ddd;
     border-radius: 10px;
-    padding: 30px;
+    padding: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    transform: translateY(-10px);
+    transform: translateY(-15px);
     color: white;
 }
 
@@ -314,7 +314,7 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
 }
 
 .target h2 {
-    font-size: 30px;
+    font-size: 2em;
     font-weight: bold;
 }
 .target > article{
@@ -326,7 +326,7 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
 }
 
 .target p {
-    font-size: 16px;
+    font-size: 0.8rem;
     text-align: center;
     font-weight: 400;
     
@@ -334,23 +334,19 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
 
 .target .price {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: flex-end;
+    justify-content: space-evenly;
     width: 100%;
-    font-size: 15px;
+    font-size: 1em;
   }
  
 
  
-  
-  .target .price {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-evenly;
-  }
+
   
   .target .price h3 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .target:nth-child(1),.target:nth-child(3) {
@@ -366,7 +362,7 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
 
 .btnFree{
     width: 40%;
-    height: 2rem;
+    height: 2.5rem;
     border-radius: 20px;
     border: 1px solid #030369;
     background-color: #ffffff;
@@ -375,7 +371,7 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
 }
 .large-target .btnFree{
     width: 40%;
-    height: 2rem;
+    height: 2.5rem;
     border-radius: 20px;
     border: 2px solid black;
     background-color: #00FEAC;
@@ -395,8 +391,125 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
     width: 100%;
     min-height: 150px;
     background-color: rgba(211, 211, 211, 0.479);
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 .img_logos img{
     width: 6.5em;
 }
+footer {
+    display:flex;
+    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+footer .containerFooter{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(../Assets/images/contact-bk.jpg);
+    background-size: cover;
+    min-height: 450px;
+    background-repeat: no-repeat;
+    gap: 20px;
+}
+.ContactUs h2{
+    width: 80%;
+    color: white;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ContactUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 50%;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.ContactUs p{
+  color: white;
+  flex-wrap: wrap;
+  font-weight: 100;
+  font-size: 17px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ContactUs a{
+  color: white;
+  flex-wrap: wrap;
+  text-decoration: none;
+  
+
+}
+footer  .formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.form-container {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.containerlabel {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width:100%;
+}
+.organizate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:45%;
+}
+
+.labelContainer {
+    width: 100%; 
+    color: #00FEAC;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    flex: 1; 
+    padding: 8px;
+    border-radius: 3px;
+    background: transparent;
+    border: 1px solid  #00FEAC;
+    color: white;
+}
+
+button[type="submit"] {
+    background-color: #00FEAC; 
+    color: #000000; 
+    border-radius: 3px;
+    cursor: pointer; 
+    height: 2.5rem;
+    border: 1px solid #00FEAC;
+    border-radius: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #028058; 
+}
+/* Estilos para el textarea */
+textarea {
+    resize: none; 
+    outline: none;
+}
+
