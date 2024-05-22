@@ -163,13 +163,13 @@ main > .SegureInformate > .containerInformate > .card {
     font-size: 16px;
 } 
 
-main > .containerStyle {
-    width: 100%;
+.containerStyle {
+  /*  width: 100%;
     min-height:50em ;
-    background-image: url(../Assets/images/Wave.svg);
+     background-image: url(../Assets/images/Wave.svg);
     background-position:bottom;
     background-size:280em;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,7 +177,10 @@ main > .containerStyle {
     gap: 90px;
     padding: 50px 0 50px 0;
     margin-top: 20px;
-
+    width: 99vw;
+    height: 60rem;
+    background: linear-gradient(165deg,white 40%, #00FEAC 0%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
 
@@ -197,6 +200,7 @@ main > .containerStyle >.containerInformate > .articleSection{
     align-items:flex-start;
     flex-direction: column;
     gap: 30px;
+  
 }
 main > .containerStyle >.containerInformate > .articleSection > h2{
     width: 100%;
