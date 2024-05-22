@@ -5,6 +5,7 @@
 }
 
 
+
 body{
     max-width-: 100vw;
     height: 100vh;
@@ -45,6 +46,9 @@ header > .navBar > ul > li > a {
 text-decoration: none;
 color: white;
 font-size: 1em;
+}
+header > .navBar > ul > li > a:hover {
+text-decoration:underline;
 }
 header > .containerHeader{
     width: 55%;
@@ -213,10 +217,16 @@ main > .containerStyle >.containerInformate > .articleSection > h2{
 main > .containerStyle >.containerInformate > .articleSection > p{
     width: 100%;
     text-wrap: wrap;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(39, 39, 39);
-    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(110, 108, 108);
+    font-weight: 100;
+    font-size: 14px;
 }
+main > .containerStyle >.containerInformate > .articleSection > button:hover{
+   
+    background-color:rgb(5, 5, 110) ;
+    cursor: pointer;
+    }
 main > .containerStyle >.containerInformate > .articleSection > button{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
@@ -260,16 +270,16 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
     max-height: 70%;
     gap: 7px;
 }
-#containerTitleTarget {
+.containerTitleTarget {
     display: flex;
     align-items: center;
     flex-flow: column wrap;
     width: 100%;
-    min-height:44.5em;
+    height:87vh;
     place-content: flex-end;
     justify-content: space-around;
 }
-#containerTitleTarget #h2 {
+.containerTitleTarget #h2 {
   display: flex;
     justify-content: center;
     align-items: center;
@@ -377,6 +387,7 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
     cursor: pointer;
     transition: background-color 0.3s ease; 
 }
+
 .large-target .btnFree{
     width: 40%;
     height: 2.5rem;
@@ -386,10 +397,13 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
 
 }
 
-
 .target:hover  .btnFree  {
     background-color: #00feaea9;
 }
+.target .btnFree:hover   {
+    background-color: #0ab67fe1;
+}
+
 
 /* imagenes de logos */
 .img_logos{
