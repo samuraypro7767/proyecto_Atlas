@@ -412,7 +412,7 @@ main > .containerStyle >.containerInformate >  .containerImg >img  {
     align-items: center;
     width: 100%;
     min-height: 150px;
-    background-color: rgba(211, 211, 211, 0.479);
+    background-color: #d3d3d37a;
     margin-top: 1rem;
 }
 .img_logos img{
